@@ -1,0 +1,334 @@
+body{
+    //background-color: rgba(50, 50 ,50, 50);
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?w=1380") 
+  }
+  header{
+    margin: auto;
+    width:310px;
+    height:520px;
+    background-color: rgba(50, 50 ,50, 0.8);
+    border: 0px solid;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+    .container{
+      color: white;
+      padding:20px;
+      line-height: 60px;
+        button{
+            color: white;
+        }
+      
+      input[type=text]{
+        width:270px;
+        height:120px;
+        border: 0px solid ;
+        border-radius: 30px;
+        color: white;
+        font-size: 34px;
+        font-weight: bold;
+        text-align: right;
+        margin-top: -10px;
+        background-color: rgba(167, 167, 167, 0.1);
+        
+        
+        
+      }
+      
+      
+      .screen1{
+        width:270px;
+        height:120px;
+        border: 0px solid ;
+        border-radius: 30px;
+        background-color: rgba(167, 167, 167, 0.6);
+        border: 1px solid rgba(167, 167, 167, 0.1);
+        
+        .mic{
+          width:60px;
+          height:60px;
+          color: #414141;
+          margin-right:10px;
+          background-color: rgba(167, 167, 167, 0.6);
+          border: 1px solid rgba(167, 167, 167, 0.1);
+          text-align: center;
+          border-radius: 20px 25px 20px 5px;
+          
+        }
+       
+       
+     }
+      .bir-sira{
+        display: flex;
+        margin-top:10px;
+        text-align: center;
+        .tus1{
+          width:60px;
+          height:60px;
+          color: #4F4F4F;
+          font-weight: bold;
+          margin-right:10px;
+          background-color: #A7A7A7;
+          border: 1px solid #A7A7A7;
+          border-radius: 10px; 
+          text-align: center;
+          &:hover{
+            background-color: #c7c7c7;
+            border: 1px solid #c7c7c7;
+          }
+          
+          
+        }
+        .tus2{
+          width:60px;
+          height:60px;
+          color: #4F4F4F;
+          font-weight: bold;
+          margin-right:10px;
+          background-color: #A7A7A7;
+          border: 1px solid #A7A7A7;
+          border-radius: 10px;
+          line-height: 60px;
+          &:hover{
+            background-color: #c7c7c7;
+            border: 1px solid #c7c7c7;
+          }
+        }
+        .tus3{
+          width:60px;
+          height:60px;
+          color: #4F4F4F;
+          font-weight: bold;
+          margin-right:10px;
+          background-color: #A7A7A7;
+          border: 1px solid #A7A7A7;
+          border-radius: 10px; 
+          &:hover{
+            background-color: #c7c7c7;
+            border: 1px solid #c7c7c7;
+          }
+          
+          
+        }
+        .tus4{
+          width:60px;
+          height:60px;
+          font-weight: bold;
+          background-color: #F98F32;
+          border: 1px solid #F98F32;
+          border-radius: 10px;    
+          &:hover{
+            background-color: #f17203;
+            border: 1px solid #f17203;
+          }    
+        }
+        
+      }
+      .iki-sira{
+        display: flex;
+        margin-top:10px;
+        text-align: center;
+        .tus5{
+          width:60px;
+          height:60px;
+          margin-right:10px;
+          background-color: #4F4F4F;
+          border: 1px solid #4F4F4F;
+          border-radius: 10px;   
+          &:hover{
+            background-color: #7e7e7e;
+            border: 1px solid #7e7e7e;
+          }
+          
+        }
+        .tus6{
+          width:60px;
+          height:60px;
+          margin-right:10px;
+          background-color: #4F4F4F;
+          border: 1px solid #4F4F4F;
+          border-radius: 10px; 
+          &:hover{
+            background-color: #7e7e7e;
+            border: 1px solid #7e7e7e;
+          }      
+        }
+        .tus7{
+          width:60px;
+          height:60px;
+          margin-right:10px;
+          background-color: #4F4F4F;
+          border: 1px solid #4F4F4F;
+          border-radius: 10px; 
+          &:hover{
+            background-color: #7e7e7e;
+            border: 1px solid #7e7e7e;
+          }       
+        }
+        .tus8{
+          width:60px;
+          height:60px;
+          font-weight: bold;
+          background-color: #F98F32;
+          border: 1px solid #F98F32;
+          border-radius: 10px;  
+          &:hover{
+            background-color: #f17203;
+            border: 1px solid #f17203;
+          }       
+        }
+      }
+      .uc-sira{
+        display: flex;
+        margin-top:10px;
+        text-align: center;
+        .tus9{
+          width:60px;
+          height:60px;
+          margin-right:10px;
+          background-color: #4F4F4F;
+          border: 1px solid #4F4F4F;
+          border-radius: 10px;   
+          &:hover{
+            background-color: #7e7e7e;
+            border: 1px solid #7e7e7e;
+          }
+          
+        }
+        .tus10{
+          width:60px;
+          height:60px;
+          margin-right:10px;
+          background-color: #4F4F4F;
+          border: 1px solid #4F4F4F;
+          border-radius: 10px;   
+          &:hover{
+            background-color: #7e7e7e;
+            border: 1px solid #7e7e7e;
+          }     
+        }
+        .tus11{
+          width:60px;
+          height:60px;
+          margin-right:10px;
+          background-color: #4F4F4F;
+          border: 1px solid #4F4F4F;
+          border-radius: 10px;  
+          &:hover{
+            background-color: #7e7e7e;
+            border: 1px solid #7e7e7e;
+          }      
+        }
+        .tus12{
+          width:60px;
+          height:60px;
+          font-weight: bold;
+          background-color: #F98F32;
+          border: 1px solid #F98F32;
+          border-radius: 10px;      
+          &:hover{
+            background-color: #f17203;
+            border: 1px solid #f17203;
+          }   
+        }
+      }
+      .dort-sira{
+         display: flex;
+        margin-top:10px;
+        text-align: center;
+        .tus13{
+          width:60px;
+          height:60px;
+          margin-right:10px;
+          background-color: #4F4F4F;
+          border: 1px solid #4F4F4F;
+          border-radius: 10px;   
+          &:hover{
+            background-color: #7e7e7e;
+            border: 1px solid #7e7e7e;
+          }
+          
+        }
+        .tus14{
+          width:60px;
+          height:60px;
+          margin-right:10px;
+          background-color: #4F4F4F;
+          border: 1px solid #4F4F4F;
+          border-radius: 10px;  
+          &:hover{
+            background-color: #7e7e7e;
+            border: 1px solid #7e7e7e;
+          }      
+        }
+        .tus15{
+          width:60px;
+          height:60px;
+          margin-right:10px;
+          background-color: #4F4F4F;
+          border: 1px solid #4F4F4F;
+          border-radius: 10px;  
+          &:hover{
+            background-color: #7e7e7e;
+            border: 1px solid #7e7e7e;
+          }      
+        }
+        .tus16{
+          width:60px;
+          height:60px;
+          font-weight: bold;
+          background-color: #F98F32;
+          border: 1px solid #F98F32;
+          border-radius: 10px;        
+          &:hover{
+            background-color: #f17203;
+            border: 1px solid #f17203;
+          } 
+        }
+      }
+      .bes-sira{
+        display: flex;
+        margin-top:10px;
+        text-align: center;
+        .tus17{
+          width:135px;
+          height:60px;
+          margin-right:10px;
+          background-color: #4F4F4F;
+          border: 1px solid #4F4F4F;
+          border-radius: 20px;   
+          &:hover{
+            background-color: #7e7e7e;
+            border: 1px solid #7e7e7e;
+          }
+          
+        }
+        .tus18{
+          width:60px;
+          height:60px;
+          font-weight: bold;
+          margin-right:10px;
+          background-color: #4F4F4F;
+          border: 1px solid #4F4F4F;
+          border-radius: 20px;   
+          &:hover{
+            background-color: #7e7e7e;
+            border: 1px solid #7e7e7e;
+          }     
+        }
+        .tus19{
+          width:60px;
+          height:60px;
+          font-weight: bold;
+          background-color: #F98F32;
+          border: 1px solid #F98F32;
+          border-radius: 20px;        
+          &:hover{
+            background-color: #f17203;
+            border: 1px solid #f17203;
+          } 
+        }
+        
+      }
+      }
+  }
